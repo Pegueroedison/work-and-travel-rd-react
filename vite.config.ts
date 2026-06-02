@@ -4,7 +4,6 @@ import { VitePWA } from 'vite-plugin-pwa';
 import path from 'path';
 
 export default defineConfig({
-  // Base relativo para que funcione en GitHub Pages sin conocer el nombre del repositorio.
   base: './',
   plugins: [
     react(),
